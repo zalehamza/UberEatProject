@@ -11,8 +11,8 @@ export default function Home() {
       <View style={{ backgroundColor: "white", padding:7, borderRadius: 25}}>
         <HeaderTabs />
         <SearchBar />
-        <Categories/>
       </View>
+      <Categories/>
     </SafeAreaView>
   )
 }
